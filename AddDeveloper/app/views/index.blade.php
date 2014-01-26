@@ -12,19 +12,19 @@
 	<nav>
 		<ul>
 			<li>
-				<div><a href="#">Nosotros</a></div>
+				<div><a href="#"><div class="nosotros">N</div> Nosotros</a></div>
 			</li>
 			<li>
-				<div><a href="#">Servicios</a></div>
+				<div><a href="#"><div class="servicios">S</div> Servicios</a></div>
 			</li>
 			<li>
-				<div><a href="#">Proyectos</a></div>
+				<div><a href="#"><div class="proyectos">P</div> Proyectos</a></div>
 			</li>
 			<li>
-				<div><a href="#">Contactenos</a></div>
+				<div><a href="#"><div class="contactenos">C</div> Contactenos</a></div>
 			</li>
 			<li>
-				<div><a href="#">Add Developers</a><a href="#"><div class="menu"></div></a></div>
+				<div><a href="#"><div class="add">A</div>Add Developers</a><a href="#"><div class="menu"></div></a></div>
 			</li>
 		</ul>
 	</nav>
