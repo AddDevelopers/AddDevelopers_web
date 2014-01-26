@@ -19,10 +19,8 @@ body
 footer
 	background #111
 	color #ddd
-	down 0
 	opacity 0.9
 	padding 1.5em
-	position relative
 	text-align center
 
 header
@@ -39,14 +37,18 @@ nav
 	opacity 0.8
 
 	ul
+		display none
+		height auto
 		margin 0px
 		padding 0px
+
 		li
 			border-top 0.2em solid #ddd
 			display block
 			font-size 1.5em
 			padding 0.2em
 			position relative
+			vertical-align middle
 
 			div
 				display inline-block
@@ -85,11 +87,12 @@ nav
 	content "\e603"
 
 .menu
+	border 1px solid #555
+	border-radius 0.3em
 	color #ddd
+	cursor pointer
 	padding 0.2em
 	position absolute
-	right 10px
-	top 0px
 
 .menu:before
 	font-family "iconos"
@@ -110,6 +113,17 @@ nav
 .servicios:before
 	font-family "iconos"
 	content "\e646"
+
+.top
+	border-bottom 0.2em solid #ddd
+	display block
+	height 1.5em
+	padding-bottom 0.4em
+	position relative
+	vertical-align middle
+
+	div
+		display inline-block
 
 .twitter:before
 	font-family "iconos"

@@ -27,10 +27,10 @@
 			<li>
 				<a href="#"><div><div class="contactenos"></div> Contactenos</div></a>
 			</li>
-			<li>
-				<a href="#"><div><div class="add"></div> Add Developers </a><a href="#"></a><a href="#"><div class="menu"></div></a></div>
-			</li>
 		</ul>
+		<div class="top">
+			<a href="#"><div class="add"></div> Add Developers </a><span tabindex="0" class="menu"></span>
+		</div>
 	</nav>
 	<header>
 		<h1>Add Developers</h1>

@@ -1,12 +1,12 @@
 @font-face{font-family:'iconos';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
 a{text-decoration:none;color:#ddd}
 body{position:relative}
-footer{background:#111;color:#ddd;down:0;opacity:.9;padding:1.5em;position:relative;text-align:center}
+footer{background:#111;color:#ddd;opacity:.9;padding:1.5em;text-align:center}
 header{background:#fff;opacity:.4}
 img{position:fixed;top:0;width:100%;z-index:-1}
 nav{background:#111;opacity:.8;}
-nav ul{margin:0;padding:0;}
-nav ul li{border-top:.2em solid #ddd;display:block;font-size:1.5em;padding:.2em;position:relative;}
+nav ul{display:none;height:auto;margin:0;padding:0;}
+nav ul li{border-top:.2em solid #ddd;display:block;font-size:1.5em;padding:.2em;position:relative;vertical-align:middle;}
 nav ul li div{display:inline-block}
 .add:before{font-family:"iconos";content:"\e600"}
 .contactenos:before{font-family:"iconos";content:"\e620"}
@@ -15,10 +15,12 @@ nav ul li div{display:inline-block}
 .linkedin:before{font-family:"iconos";content:"\e633";padding-left:.2em;padding-right:.2em}
 .location{display:inline-block}
 .location:before{font-family:"iconos";content:"\e603"}
-.menu{color:#ddd;padding:.2em;position:absolute;right:10px;top:0}
+.menu{border:1px solid #555;border-radius:.3em;color:#ddd;cursor:pointer;padding:.2em;position:absolute}
 .menu:before{font-family:"iconos";content:"\e611"}
 .nosotros:before{font-family:"iconos";content:"\e610"}
 .proyectos:before{font-family:"iconos";content:"\e62e"}
 .red_social div{display:inline-block}
 .servicios:before{font-family:"iconos";content:"\e646"}
+.top{border-bottom:.2em solid #ddd;display:block;height:1.5em;padding-bottom:.4em;position:relative;vertical-align:middle;}
+.top div{display:inline-block}
 .twitter:before{font-family:"iconos";content:"\e61d";padding-left:.2em;padding-right:.2em}
