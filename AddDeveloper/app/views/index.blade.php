@@ -7,24 +7,28 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<script type="text/javascript" scr="js/modernizr.min.js"></script>
 	<script type="text/javascript" scr="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+	<div class="fondo">
+		<img src="imagenes/banner_1.jpg" alt="">
+	</div>
 	<nav>
 		<ul>
 			<li>
-				<div><a href="#"><div class="nosotros">N</div> Nosotros</a></div>
+				<a href="#"><div><div class="nosotros"></div> Nosotros</div></a>
 			</li>
 			<li>
-				<div><a href="#"><div class="servicios">S</div> Servicios</a></div>
+				<a href="#"><div><div class="servicios"></div> Servicios</div></a>
 			</li>
 			<li>
-				<div><a href="#"><div class="proyectos">P</div> Proyectos</a></div>
+				<a href="#"><div><div class="proyectos"></div> Proyectos</div></a>
 			</li>
 			<li>
-				<div><a href="#"><div class="contactenos">C</div> Contactenos</a></div>
+				<a href="#"><div><div class="contactenos"></div> Contactenos</div></a>
 			</li>
 			<li>
-				<div><a href="#"><div class="add">A</div>Add Developers</a><a href="#"><div class="menu"></div></a></div>
+				<a href="#"><div><div class="add"></div> Add Developers </a><a href="#"></a><a href="#"><div class="menu"></div></a></div>
 			</li>
 		</ul>
 	</nav>
@@ -33,17 +37,17 @@
 		<h4>Soluciones software a tu medida</h4>
 	</header>
 	<section>
-		
+
 	</section>
 	<footer>
 		<div class="ubicacion">
-			<div class="location">L</div> Av. Siempre viva 742 - Springfield
+			<div class="location"></div> Av. Siempre viva 742 - Springfield
 		</div>
 		<div class="red_social">
-			<div class="facebook">F</div>
-			<div class="twitter">T</div>
-			<div class="linkedin">I</div>
-			<div class="git">git</div>
+			<div class="facebook"></div>
+			<div class="twitter"></div>
+			<div class="linkedin"></div>
+			<div class="git"></div>
 		</div>
 	</footer>
 </body>
